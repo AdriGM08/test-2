@@ -1,0 +1,143 @@
+body{background: seagreen; margin: 0px;}
+
+
+.main {
+background: linear-gradient(to bottom,seagreen,white);
+height: 50px;
+z-index: 999999;
+margin: 0 auto;
+border-bottom: 0px solid;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+text-align: center;
+padding: 0 20px 20px 20px;
+}
+
+
+
+
+
+.menu {
+
+height: 10px;
+z-index: 999999;
+margin: 0 auto;
+
+width: 100%;
+position: fixed;
+top: 70px;
+left: 0;
+right: 0;
+text-align: center;
+padding: 0 10px 35px 10px;
+background-color: hsl(0, 100%, 100%,.70);
+border-bottom: 2px solid black;
+align-content: center;
+
+  animation: myAnim 2s cubic-bezier(0.36, 0, 0.66, -0.56) 0s 1 normal forwards;
+
+}
+
+@keyframes myAnim {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateY(-45px);
+  }
+
+  24% {
+    opacity: 0;
+  }
+
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateY(-24px);
+  }
+
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateY(-12px);
+  }
+
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateY(-6px);
+  }
+
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateY(-4px);
+  }
+
+  25%,
+  55%,
+  75%,
+  87% {
+    animation-timing-function: ease-out;
+    transform: translateY(0px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+.tuto {
+position: relative;
+width: 100%;
+height: auto;
+background: hsl(0, 100%, 100%,.70);
+align-content: center;
+text-align: center;
+margin: 0px;
+
+}
+
+.tuto1 {
+position: relative;
+width: 30%;
+height: 99.1%;
+background: gray;
+border: 5px solid gray;
+border-spacing: 0px;
+align-content: center;
+text-align: center;
+float: left;
+margin-top: -1.3px;
+
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.tuto2 {font-family: "Montserrat";
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  letter-spacing: 1px;}
+
+h2 {background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: .75;}
+
+
+
+h1{color: green;}
+a{color: green; font-size: 20px}
+h3{color: green;}
+p {font-size: 20px; color: white;}
