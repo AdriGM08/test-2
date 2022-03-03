@@ -200,12 +200,10 @@ align-content: center;
 }
 
 .galeria {
-    width: 100%;
+    width: 50%;
     height: 500px;
-    overflow: hidden;
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
+   
+   
 }
 
 .imagenes {
