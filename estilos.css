@@ -200,8 +200,10 @@ align-content: center;
 }
 
 .galeria {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 500px;
+	position: center;
+	aling-content:center;
    
 }
 
